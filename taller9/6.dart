@@ -9,7 +9,7 @@ void main() {
   int contador = 0;
   print("Ingrese numeros enteros entre $numero1 y $numero2:");
   while (true) {
-    int numero = int.tryParse(stdin.readLineSync()!);
+    int numero = int.parse(stdin.readLineSync()!);
     if (numero == null || (numero < numero1 || numero > numero2)) {
       break;
     }

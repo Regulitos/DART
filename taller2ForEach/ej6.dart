@@ -18,7 +18,7 @@ void main(){
         print('Datos Añadidos:');
         persona.forEach((data,value)=> print('$data: $value'));
         print("¿Desea continuar? s/n");
-        String respuesta =stdin.readLineSync()!
+        String respuesta =stdin.readLineSync()!;
         if(respuesta=="n" || respuesta=="N"){
             continuar = false;
         }
