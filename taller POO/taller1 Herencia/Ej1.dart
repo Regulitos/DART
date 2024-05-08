@@ -32,7 +32,7 @@ class Multimedia {
   }
 
   String toString() {
-    return 'Título: $titulo\nAutor: $autor\nFormato: $formato\nDuración: $duracion';
+    return 'Titulo: $titulo\nAutor: $autor\nFormato: $formato\nDuracion: $duracion';
   }
 
   bool equals(Multimedia other) {
@@ -41,8 +41,8 @@ class Multimedia {
 }
 
 void main() {
-  var multimedia1 = Multimedia('Película1', 'Autor1', 'avi', 120.5);
-  var multimedia2 = Multimedia('Película2', 'Autor2', 'mp4', 90.0);
+  var multimedia1 = Multimedia('Pelicula1', 'Autor1', 'avi', 120.5);
+  var multimedia2 = Multimedia('Pelicula2', 'Autor2', 'mp4', 90.0);
   
   print(multimedia1.toString());
   print(multimedia2.toString());
